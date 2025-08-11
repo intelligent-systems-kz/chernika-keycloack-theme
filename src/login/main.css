@@ -11,6 +11,29 @@ body.kcBodyClass {
   background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%);
 }
 
+#kc-header-wrapper svg {
+    max-width: 400px;
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+}
+
+.chernika-center-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  height: 100vh;          
+  box-sizing: border-box;
+}
+
+#kc-header-wrapper {
+  padding: 0 10px 20px;
+}
+
+.login-pf-page {
+  padding-top: 0px;
+}
+
 @media (min-width: 768px) {
   .login-pf-page .login-pf-page-header {
     margin-bottom: 20px;
@@ -18,12 +41,6 @@ body.kcBodyClass {
 }
 @media (max-width: 767px) {
   #kc-header-wrapper {
-    padding: 20px 20px 0 0;
+    padding: 0 20px 0 0;
   }
-}
-#kc-header-wrapper svg {
-    max-width: 400px;
-    height: auto; 
-    display: block;
-    margin: 0 auto; 
 }
