@@ -7,7 +7,12 @@ export default defineConfig({
     plugins: [
         react(),
         keycloakify({
-            accountThemeImplementation: "none"
+            accountThemeImplementation: "none",
+            themeName: "chernika",
+            keycloakVersionTargets: {
+                "22-to-25": false,
+                "all-other-versions": "chernika.jar"
+            }
         })
     ]
 });

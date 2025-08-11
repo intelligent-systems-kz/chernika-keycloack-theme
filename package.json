@@ -1,10 +1,10 @@
 {
-    "name": "keycloakify-starter",
-    "version": "0.0.0",
-    "description": "Starter for Keycloakify 11",
+    "name": "chernika-keycloak-theme",
+    "version": "1.0.0",
+    "description": "Chernika keycloak theme",
     "repository": {
         "type": "git",
-        "url": "git://github.com/codegouvfr/keycloakify-starter.git"
+        "url": "git://github.com/intelligent-systems-kz/chernika-keycloack-theme.git"
     },
     "type": "module",
     "scripts": {

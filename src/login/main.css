@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
+.kcHeaderWrapperClass {
+  font-family: 'Google Sans Code', monospace;
+  font-weight: 500;
+  color: #032442
+}
+
+body.kcBodyClass {
+  background: #ffffff;
+  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%);
+}
+
+@media (min-width: 768px) {
+  .login-pf-page .login-pf-page-header {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  #kc-header-wrapper {
+    padding: 20px 20px 0 0;
+  }
+}
+#kc-header-wrapper svg {
+    max-width: 400px;
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+}
