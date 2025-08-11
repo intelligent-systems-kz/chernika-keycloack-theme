@@ -11,7 +11,7 @@ export default defineConfig({
             themeName: "chernika",
             keycloakVersionTargets: {
                 "22-to-25": false,
-                "all-other-versions": "chernika.jar"
+                "all-other-versions": "chernika-keycloak-theme.jar"
             }
         })
     ]
